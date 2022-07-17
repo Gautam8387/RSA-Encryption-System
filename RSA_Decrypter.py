@@ -60,14 +60,3 @@ def RSA_decrypt(fileName):
     #                = O(nlogn)
     # Space Complexity: S(1) + S(1) + S(1) + S(1) 
     #                 = S(1)
-
-# =========================================
-
-# with open('keys.json', 'r') as fp:
-#     keys_dict = json.load(fp)
-
-# c = keys_dict['c']
-# e = keys_dict['e']
-# d = keys_dict['d']
-# N = keys_dict['N']
-# RSA_decrypt("keys.json")
