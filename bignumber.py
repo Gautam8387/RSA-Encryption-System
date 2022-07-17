@@ -251,5 +251,3 @@ def bigdiv(number, divisor):
 	# Output Assertion: Integer ans such that ans = number//divisor
 	return int(ans)
 
-
-################################## ROUGH ################################## 
